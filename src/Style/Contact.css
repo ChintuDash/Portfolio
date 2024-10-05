@@ -1,0 +1,39 @@
+#contactbox{
+    width:100vw;
+    height:89vh;
+    background-color:rgb(32, 28, 29);
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+}
+#contact_h5{
+    color:lawngreen;
+    width:80%;
+    height:80%;
+    text-align:justify;
+    font-size:clamp(1vh,3vw,6vh);
+    line-height:10vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+@media (max-width:834px){
+    #contactbox{
+        width:100vw;
+        height:100vh;
+        background-color:rgb(32, 28, 29);
+        display:flex;
+        justify-content:center;
+        /* align-items:center; */
+    }
+  
+    #contact_h5{
+        color:lawngreen;
+        width:auto;
+        height:auto;
+        text-align:justify;
+        font-size:clamp(1vh,5vw,7vh);
+        margin-top:0;
+        line-height:10vh;
+        padding-top:10vh;
+    }
+    }

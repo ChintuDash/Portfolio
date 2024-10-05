@@ -1,0 +1,67 @@
+.Edubox{
+    width:100vw;
+    height:89vh;
+    background-color:rgb(32, 28, 29);
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    align-items:center;
+    
+}
+pre strong{
+    font-size:clamp(1vh,2.5vw,6vh);
+    color:lawngreen;
+    width:80%;
+    font-style:italic;
+    
+}
+pre{
+    color:white;
+    width:95%;
+    height:25%;
+    /* text-align:justify; */
+    font-size:clamp(1vh,2vw,5vh);
+    border-radius:10px;
+    border:1px solid white;
+    margin-top:1vh;
+   overflow:scroll;
+    padding:1vw;
+    line-height:5vh;
+    
+}
+@media(max-width:834px){
+    .Edubox{
+        width:100vw;
+        height:100vh;
+        background-color:rgb(32, 28, 29);
+        display:flex;
+        flex-direction:column;
+        /* justify-content:center; */
+        align-items:center;
+        
+    }
+  #pre1{
+    padding-top:10vh;
+  }
+    pre strong{
+        font-size:clamp(0.2vh,4vw,7vh);
+        color:lawngreen;
+        width:80%;
+        font-style:italic;
+        
+    }
+    pre{
+        color:white;
+        width:95%;
+        height:20%;
+        /* text-align:justify; */
+        font-size:clamp(0.2vh,3vw,6vh);
+        line-height:5vh;
+        border-radius:10px;
+        border:1px solid white;
+        margin-top:1vh;
+       overflow:scroll;
+        padding:1vw;
+        
+    }
+}

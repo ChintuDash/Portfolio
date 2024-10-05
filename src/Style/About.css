@@ -1,0 +1,43 @@
+#aboutbox{
+    width:100vw;
+    height:89vh;
+    background-color:rgb(32, 28, 29);
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+}
+
+#about_h5{
+    color:white;
+    width:80%;
+    height:90%;
+    text-align:justify;
+    font-size:clamp(1vh,2.8vw,6vh);
+    line-height:8vh;
+}
+
+
+
+@media (max-width:834px){
+    
+    #aboutbox{
+        width:100vw;
+        height:100vh;
+        background-color:rgb(32, 28, 29);
+        display:flex;
+        justify-content:center;
+        /* align-items:center; */
+    }
+    
+    #about_h5{
+        color:white;
+        width:80%;
+        height:auto;
+        text-align:justify;
+        font-size:clamp(2vh,4.5vw,5vh);
+        line-height:5.5vh;
+        padding-top:10vh;
+    }
+    
+   
+    }

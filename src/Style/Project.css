@@ -1,0 +1,54 @@
+.Projectbox{
+    width:100vw;
+    height:89vh;
+    background-color:rgb(32, 28, 29);
+    display:flex;      
+    justify-content:center;
+    /* align-items:center; */
+    line-height:10vh;
+}
+#list{
+    color:white;
+    width:80%;
+    height:80%;
+    text-align:justify;
+    font-size:clamp(0.5vh,3vw,6vh);
+   
+}
+#list li{
+    border-bottom:1px solid lawngreen;;
+}
+li::marker{
+    color:lawngreen;
+    
+}
+ul{
+    list-style-type:square;
+    
+}
+#list span{
+    font-size:clamp(1.5vh,5vw,8vh);
+}
+@media(max-width:834px){
+    .Projectbox{
+        width:100vw;
+        height:100vh;
+        background-color:rgb(32, 28, 29);
+        display:flex;      
+        justify-content:center;
+        /* align-items:center; */
+        line-height:10vh;
+    }
+    #list{
+        color:white;
+        width:80%;
+        height:auto;
+        text-align:justify;
+        font-size:clamp(0.5vh,4vw,6vh);
+        line-height:9vh;
+        margin-top:10vh;
+    }
+    #list span{
+        font-size:clamp(2vh,5vw,7vh);
+    }
+}
