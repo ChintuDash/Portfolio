@@ -103,8 +103,23 @@ a:visited{color:white;}
         margin-top:11vh;
         object-fit:fill;
         border-radius:100px;
-        border:1px solid rgb(252, 254, 252);
-        box-shadow:0 0 10px white;
+        /* border:1px solid rgb(252, 254, 252); */
+        /* box-shadow:0 0 10px white; */
+        border:5px solid transparent;
+        background-image: linear-gradient(white, white), liner-gradient(45deg,red,blue,green,yellow);
+        background-origin:border-box;
+        background-clip:content-box, border-box;
+        animation:move-border 3s linear infinite;
+
+    }
+
+    @keyframes move-border{
+        0%{
+            background-position:0 0;
+        }
+        100%{
+            background-position:400% 0;
+        }
     }
     .div1 h4{
         font-family:Georgia, 'Times New Roman', Times, serif,cursive;
