@@ -7,7 +7,8 @@ import Skill from "./Component/Skills.js";
 import Education from "./Component/Education.js";
 import Project from "./Component/Project.js";
 
-import { BrowserRouter,Routes,Route} from 'react-router-dom'; 
+import { Routes,Route} from 'react-router-dom'; 
+import { HashRouter } from "react-router-dom";
 import './Style/Navbar.css'
 import './Style/Body.css'
 import './Style/About.css'
@@ -18,7 +19,7 @@ import './Style/Project.css'
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
          <Navbar/>
          <Routes>
             <Route path="/" element={<Body/>}/>
@@ -29,7 +30,7 @@ function App() {
             <Route path="/Project" element={<Project/>}/>
             
          </Routes>
-      </BrowserRouter>   
+      </HashRouter>   
     
       </div>
   );
