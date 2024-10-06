@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ChintuDash/Portfolio/static/css/main.eaba3321.css",
+    "main.js": "/ChintuDash/Portfolio/static/js/main.ab9c1528.js",
+    "index.html": "/ChintuDash/Portfolio/index.html",
+    "main.eaba3321.css.map": "/ChintuDash/Portfolio/static/css/main.eaba3321.css.map",
+    "main.ab9c1528.js.map": "/ChintuDash/Portfolio/static/js/main.ab9c1528.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaba3321.css",
+    "static/js/main.ab9c1528.js"
+  ]
+}
