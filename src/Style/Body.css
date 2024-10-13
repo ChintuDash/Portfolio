@@ -21,13 +21,13 @@
     background-color:rgb(32, 28, 29);
 }
 #mypic{
-    height:60%;
+    height:70%;
     width:80%;
     margin:5px;
     object-fit:fill;
     border-radius:100px;
-    border:1px solid rgb(252, 254, 252);
-    box-shadow:0 0 10px white;
+    border:1px solid rgb(255, 0, 0);
+    box-shadow:0 0 12px rgb(255, 0, 238);
 }
 .div1 h4{
     font-family:Georgia, 'Times New Roman', Times, serif,cursive;
@@ -67,7 +67,7 @@
     gap:3vw;
     align-items:center;
     font-size:clamp(1vh,3vw,6vh);
-    height:20vh;
+    height:12vh;
     width:100%;    
     color:white;
     
@@ -98,13 +98,13 @@ a:visited{color:white;}
          padding-top:10vh;
     }
     #mypic{
-        height:60%;
-        width:70%;
+        height:62%;
+        width:80%;
         margin-top:11vh;
         object-fit:fill;
         border-radius:100px;
-        border:1px solid rgb(252, 254, 252);
-        box-shadow:0 0 10px white;
+        border:1px solid rgb(255, 0, 0);
+         box-shadow:0 0 12px rgb(255, 0, 238);
        
 
     }
@@ -135,7 +135,7 @@ a:visited{color:white;}
         gap:7vw;
         align-items:center;
         font-size:clamp(1vh,9vw,10vh);
-        height:10%;
+        height:15%;
         width:100%;    
         color:white;
         

@@ -8,11 +8,13 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from 'react-icons/fa';
 
 function Body(){   
+
+    // autotype text 
         const [text] = useTypewriter({
-            words: ['FullStack Developer','PhotoDesigner'],
+            words: ['FullStack Developer','PhotoDesigner','DataEntry Operator'],
             loop: {},
             typeSpeed:100,
-            deleteSpeed:80,
+            deleteSpeed:85,
         });
         return(
             <div className="Maindiv">
@@ -29,6 +31,7 @@ function Body(){
                 </div>
                </div>
                <div className="div2">
+                {/* autotype text  */}
                  <h1 id="autobox">
                     I'm a {' '}
                     <span> {text} </span>
